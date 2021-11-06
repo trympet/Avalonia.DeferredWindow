@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Avalonia.DeferredStartup
+namespace Avalonia.DeferredWindow
 {
     public class DeferredWindow : Window, IStyleable
     {

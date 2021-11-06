@@ -1,6 +1,6 @@
 using Avalonia;
 using Avalonia.Controls;
-using Avalonia.DeferredStartup;
+using Avalonia.DeferredWindow;
 using Avalonia.Markup.Xaml;
 
 namespace Demo.Views

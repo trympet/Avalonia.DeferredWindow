@@ -1,6 +1,6 @@
 ﻿using Avalonia.Controls;
 
-namespace Avalonia.DeferredStartup
+namespace Avalonia.DeferredWindow
 {
     /// <summary>
     /// States for the <see cref="DeferredWindow"/> FSM.

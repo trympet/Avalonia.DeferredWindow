@@ -1,4 +1,4 @@
-﻿namespace Avalonia.DeferredStartup
+﻿namespace Avalonia.DeferredWindow
 {
     internal static class DeferredStateExtensions
     {
