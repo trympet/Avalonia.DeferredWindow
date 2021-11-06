@@ -4,7 +4,16 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>Trym Lund Flogard</Authors>
+    <Company>Trym Lund Flogard</Company>
+    <Description>An Avalonia deferred Window class for fast, intermediate startup shells.</Description>
+    <Copyright>Copyright © 2021 Trym Lund Flogard</Copyright>
+    <PackageProjectUrl>https://github.com/trympet/Avalonia.DeferredWindow</PackageProjectUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="https:\github.com\trympet\Avalonia.DeferredWindow\blob\master\README.md" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="0.10.8" />
