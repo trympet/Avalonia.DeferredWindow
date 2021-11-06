@@ -9,7 +9,18 @@
     <Description>An Avalonia deferred Window class for fast, intermediate startup shells.</Description>
     <Copyright>Copyright © 2021 Trym Lund Flogard</Copyright>
     <PackageProjectUrl>https://github.com/trympet/Avalonia.DeferredWindow</PackageProjectUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/trympet/Avalonia.DeferredWindow</RepositoryUrl>
+    <PackageTags>avalonia, ui, deferred, startup</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="0.10.8" />
