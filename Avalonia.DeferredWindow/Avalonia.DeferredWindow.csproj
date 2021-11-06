@@ -12,10 +12,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="https:\github.com\trympet\Avalonia.DeferredWindow\blob\master\README.md" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Avalonia" Version="0.10.8" />
   </ItemGroup>
 
